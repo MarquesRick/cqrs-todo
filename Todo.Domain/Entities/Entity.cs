@@ -1,6 +1,3 @@
-using System.ComponentModel;
-using System.Text.Encodings.Web;
-
 namespace Todo.Domain.Entities
 {
     public abstract class Entity : IEquatable<Entity>
