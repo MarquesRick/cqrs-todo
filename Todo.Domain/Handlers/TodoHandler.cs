@@ -1,7 +1,9 @@
 using Flunt.Notifications;
 using Todo.Domain.Commands;
 using Todo.Domain.Commands.Contracts;
+using Todo.Domain.Entities;
 using Todo.Domain.Handlers.Contracts;
+using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Handlers
 {
@@ -12,15 +14,40 @@ namespace Todo.Domain.Handlers
     IHandler<MarkTodoAsDoneCommand>,
     IHandler<MarkTodoAsUndoneCommand>
     {
-        // private readonly IRepository<Todo> _repository;
+        private readonly ITodoRepository _repository;
+
+        public TodoHandler(ITodoRepository repository)
+        {
+            _repository = repository;
+        }
+
         public ICommandResult Handle(CreateTodoCommand command)
         {
-            throw new System.NotImplementedException();
+            // Fail Fast Validation
+            command.Validate();
+            if (command.Invalid)
+                return new GenericCommandResult(false, "Ops, It seems that your task is wrong!", command.Notifications);
+            // Generate TodoItem
+            var todo = new TodoItemEntity(command.Title, command.User, command.Date);
+            // Save on db
+            _repository.Create(todo);
+
+            // Returns the result
+            return new GenericCommandResult(true, "Task saved!", todo);
         }
 
         public ICommandResult Handle(UpdateTodoCommand command)
         {
-            throw new System.NotImplementedException();
+            // Fail Fast Validation
+            command.Validate();
+            if (command.Invalid)
+                return new GenericCommandResult(false, "Ops, It seems that your task is wrong!", command.Notifications);
+
+            var todo = _repository.GetById(command.Id, command.User);
+            todo.UpdateTitle(command.Title);
+            _repository.Update(todo);
+
+            return new GenericCommandResult(true, "Task saved", todo);
         }
 
         public ICommandResult Handle(MarkTodoAsDoneCommand command)
