@@ -1,16 +1,27 @@
 ﻿<Properties StartupConfiguration="{D76881E9-314A-4ACF-AF12-2EB22B188F74}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain/Entities/Entity.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Todo.Domain.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain/Commands/TodoItemContext/TodoItemCommand.cs">
     <Files>
       <File FileName="Todo.Domain/Entities/Entity.cs" Line="17" Column="2" />
+      <File FileName="Todo.Domain/Entities/TodoItemEntity.cs" Line="17" Column="16" />
+      <File FileName="Todo.Domain/Commands/Contracts/ICommand.cs" Line="4" Column="2" />
+      <File FileName="Todo.Domain/Commands/TodoItemContext/TodoItemCommand.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Todo" expanded="True">
             <Node name="Todo.Domain" expanded="True">
-              <Node name="Entities" expanded="True" />
+              <Node name="Commands" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="TodoItemContext" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Todo.Domain.Api" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -24,11 +35,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Todo.Domain.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

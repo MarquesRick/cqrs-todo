@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <!-- <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable> -->
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.4" />
+    <!-- <PackageReference Include="Flunt.Extensions.AspNet" Version="1.0.0" /> -->
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Commands\TodoItemContext\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\TodoItemContext\" />
+  </ItemGroup>
 </Project>

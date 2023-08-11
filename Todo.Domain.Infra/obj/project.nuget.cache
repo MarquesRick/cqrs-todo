@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Sz1JpTdPn3j/WqVNHu7X8uYakGXKcyMcFzay77OdKXMB9MjI3O+qj2HgF4mt3IPu7HyxkW+MpDlzOmBnOMjFpw==",
+  "dgSpecHash": "y515MGFbX5mlAZSh5469ny3wEcK5hbHrUQSu3H9PmQE7zrUHA5Z3O89mHt5bEiMagC1AKyQvpQYCIW8WvCInqA==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NaQwr29Qq1WRQesG+qGiwEHnheeKNzp5bqwHt+smrPYimZiyMm+tJQyLw880PGF+H5w5N9VXexciQhcR+wl+vQ==",
+  "dgSpecHash": "dP+zJB121TTzpfWKUDewx35/6uY1PyuNWU0qh/FomIJOE1hn4C+NS1dvYuEfcjweGW53npTNJ/A2YU/irVrINA==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain/Todo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

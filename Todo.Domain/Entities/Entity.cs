@@ -1,3 +1,5 @@
+using System;
+
 namespace Todo.Domain.Entities
 {
     public abstract class Entity : IEquatable<Entity>
@@ -9,9 +11,6 @@ namespace Todo.Domain.Entities
 
         public Guid Id { get; private set; }
 
-        public bool Equals(Entity? other)
-        {
-            return Id == other?.Id;
-        }
+        public bool Equals(Entity other) => Id == other.Id;
     }
 }

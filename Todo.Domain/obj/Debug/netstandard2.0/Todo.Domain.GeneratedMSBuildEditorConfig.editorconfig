@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Todo.Domain
+build_property.ProjectDir = /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain/

@@ -1,3 +1,5 @@
+using System;
+
 namespace Todo.Domain.Entities
 {
     public class TodoItemEntity : Entity
@@ -17,19 +19,11 @@ namespace Todo.Domain.Entities
         //Authentication from google
         public string User { get; private set; }
 
-        public void MarkAsDone()
-        {
-            Done = true;
-        }
+        public void MarkAsDone() => Done = true;
 
-        public void MarkAsUndone()
-        {
-            Done = false;
-        }
 
-        public void UpdateTitle(string title)
-        {
-            Title = title;
-        }
+        public void MarkAsUndone() => Done = false;
+
+        public void UpdateTitle(string title) => Title = title;
     }
 }

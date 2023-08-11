@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wxRyqr5FZLlvmOnAztWhEwPf+c8T6ExD1z1AvwSIAJRaYTTq7Covk2dO/YA8RtiS/RGws+pgf3RNEzL1R/ZwEQ==",
+  "dgSpecHash": "g10wyru+heGCa18UaAvuRa/7AcVfMO6EoubhWPfOfDezm1ozeS4EjblOxZJnvXww3v78MQBn/MesbX8y/e2AuA==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/Todo.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/hmarques/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.net.test.sdk/17.1.0/microsoft.net.test.sdk.17.1.0.nupkg.sha512",
