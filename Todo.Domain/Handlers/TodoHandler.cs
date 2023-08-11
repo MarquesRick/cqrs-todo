@@ -52,12 +52,29 @@ namespace Todo.Domain.Handlers
 
         public ICommandResult Handle(MarkTodoAsDoneCommand command)
         {
-            throw new System.NotImplementedException();
+            // Fail Fast Validation
+            command.Validate();
+            if (command.Invalid)
+                return new GenericCommandResult(false, "Ops, It seems that your task is wrong!", command.Notifications);
+            var todo = _repository.GetById(command.Id, command.User);
+            todo.MarkAsDone();
+            _repository.Update(todo);
+
+            // Retorna o resultado
+            return new GenericCommandResult(true, "Task saved", todo);
         }
 
         public ICommandResult Handle(MarkTodoAsUndoneCommand command)
         {
-            throw new System.NotImplementedException();
+            // Fail Fast Validation
+            command.Validate();
+            if (command.Invalid)
+                return new GenericCommandResult(false, "Ops, It seems that your task is wrong!", command.Notifications);
+            var todo = _repository.GetById(command.Id, command.User);
+            todo.MarkAsUndone();
+            _repository.Update(todo);
+
+            return new GenericCommandResult(true, "Task saved", todo);
         }
     }
 }
