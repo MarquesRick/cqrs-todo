@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RITtUkc23plcrg1fDNA++61Wj28H0hC6iDDZbvhVk/d8MFvi9gQ+6J8yv54ZzVexYunnGvxNo5ylTOTTG6Ogow==",
+  "dgSpecHash": "vgvE5dqkRDLO2IozD9/L89rxrzlyioJtIFAFz9TZgOMvfYcIFgoHmoTY5wpdvtaZZ8Ld4DWoArX52YI3339CHw==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/Todo.Domain.Api.csproj",
   "expectedPackageFiles": [
     "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.data.sqlite.core/6.0.18/microsoft.data.sqlite.core.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore/6.0.18/microsoft.entityframeworkcore.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.18/microsoft.entityframeworkcore.abstractions.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.18/microsoft.entityframeworkcore.analyzers.6.0.18.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.design/6.0.18/microsoft.entityframeworkcore.design.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.18/microsoft.entityframeworkcore.relational.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.18/microsoft.entityframeworkcore.sqlite.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.18/microsoft.entityframeworkcore.sqlite.core.6.0.18.nupkg.sha512",

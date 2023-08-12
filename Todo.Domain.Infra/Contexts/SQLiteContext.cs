@@ -6,6 +6,7 @@ namespace Todo.Domain.Infra.Contexts
 {
     public class SQLiteContext : DbContext
     {
+        public SQLiteContext() { }
         public SQLiteContext(DbContextOptions<SQLiteContext> options) : base(options) { }
 
         public DbSet<TodoItemEntity> Todos { get; set; }
