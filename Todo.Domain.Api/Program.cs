@@ -1,13 +1,32 @@
+using System;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Todo.Domain.Handlers;
+using Todo.Domain.Infra.Contexts;
+using Todo.Domain.Infra.Repositories;
+using Todo.Domain.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddDbContext<SQLiteContext>(option => option.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddTransient<ITodoRepository, TodoRepository>();
+builder.Services.AddTransient<TodoHandler, TodoHandler>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.MapGet("/v1/todos/getAll", ([FromServices]ITodoRepository repository)=>
+{
+    return repository.GetAll("Teste");
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

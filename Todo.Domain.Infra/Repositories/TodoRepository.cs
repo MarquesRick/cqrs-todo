@@ -3,7 +3,7 @@ using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Infra.Repositories
 {
-    public class TodoRepositories : ITodoRepository
+    public class TodoRepository : ITodoRepository
     {
         public void Create(TodoItemEntity todo)
         {
