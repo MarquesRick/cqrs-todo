@@ -62,6 +62,24 @@ app.MapPost("v1/todos/create", ([FromBody]CreateTodoCommand command, [FromServic
     command.User = "Henrique";
     return (GenericCommandResult)handler.Handle(command);
 });
+app.MapPut("v1/todos/update", ([FromBody] UpdateTodoCommand command, [FromServices] TodoHandler handler) =>
+{
+    //command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
+    command.User = "Henrique";
+    return (GenericCommandResult)handler.Handle(command);
+});
+app.MapPut("v1/todos/mark-as-done", ([FromBody] MarkTodoAsDoneCommand command, [FromServices] TodoHandler handler) =>
+{
+    //command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
+    command.User = "Henrique";
+    return (GenericCommandResult)handler.Handle(command);
+});
+app.MapPut("v1/todos/mark-as-undone", ([FromBody] MarkTodoAsUndoneCommand command, [FromServices] TodoHandler handler) =>
+{
+    //command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
+    command.User = "Henrique";
+    return (GenericCommandResult)handler.Handle(command);
+});
 #endregion
 
 // Configure the HTTP request pipeline.
