@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Todo.Domain.Commands;
 using Todo.Domain.Handlers;
 using Todo.Domain.Infra.Contexts;
 using Todo.Domain.Infra.Repositories;
@@ -25,7 +26,14 @@ var app = builder.Build();
 
 app.MapGet("/v1/todos/getAll", ([FromServices]ITodoRepository repository)=>
 {
-    return repository.GetAll("Teste");
+    return repository.GetAll("Henrique");
+});
+
+app.MapPost("v1/todos/create", ([FromBody]CreateTodoCommand command, [FromServices]TodoHandler handler)=>
+{
+    //command.User = User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value;
+    command.User = "Henrique";
+    return (GenericCommandResult)handler.Handle(command);
 });
 
 // Configure the HTTP request pipeline.
