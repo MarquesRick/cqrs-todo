@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Todo.Domain.Entities;
+using Todo.Domain.Infra.Mapping;
 
 namespace Todo.Domain.Infra.Contexts
 {
@@ -11,7 +12,7 @@ namespace Todo.Domain.Infra.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TodoItemEntity>();
+            modelBuilder.Entity<TodoItemEntity>(new TodoMap().Configure);
         }
         //For Dapper
 
