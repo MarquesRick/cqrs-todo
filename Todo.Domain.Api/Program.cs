@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Todo.Domain.Commands;
@@ -9,12 +10,15 @@ using Todo.Domain.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<SQLiteContext>(option => option.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+// To get current folder from Todo.Domain.Infra and set in appsettings to indicate where app.db is.
+var stringConnection = builder.Configuration
+    .GetConnectionString("DefaultConnection")
+    .Replace("{PATH}", $"{Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"../"))}Todo.Domain.Infra");
+
+builder.Services.AddDbContext<SQLiteContext>(option => option
+    .UseSqlite(stringConnection));
 
 builder.Services.AddTransient<ITodoRepository, TodoRepository>();
 builder.Services.AddTransient<TodoHandler, TodoHandler>();
