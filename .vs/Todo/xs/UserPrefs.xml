@@ -2,18 +2,27 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Todo.Domain.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain.Infra/Repositories/TodoRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain.Tests/UnitTest1.cs">
     <Files>
-      <File FileName="Todo.Domain/Entities/Entity.cs" Line="1" Column="1" />
-      <File FileName="Todo.Domain/Entities/TodoItemEntity.cs" Line="17" Column="1" />
-      <File FileName="Todo.Domain/Commands/Contracts/ICommand.cs" Line="4" Column="2" />
-      <File FileName="Todo.Domain.Api/Program.cs" Line="21" Column="44" />
-      <File FileName="Todo.Domain.Infra/Mapping/TodoMap.cs" Line="20" Column="2" />
-      <File FileName="Todo.Domain.Infra/Repositories/TodoRepositories.cs" Line="15" Column="1" />
+      <File FileName="Todo.Domain.Infra/Repositories/TodoRepository.cs" Line="24" Column="62" />
+      <File FileName="Todo.Domain.Api/Program.cs" Line="92" Column="1" />
+      <File FileName="Todo.Domain.Api/appsettings.json" Line="13" Column="1" />
+      <File FileName="Todo.Domain.Infra/Contexts/SQLiteContext.cs" Line="16" Column="65" />
+      <File FileName="Todo.Domain.Api/Todo/obj/Todo.Domain.Infra.EntityFrameworkCore.targets" Line="1" Column="1" />
+      <File FileName="Todo.Domain.Infra/Mapping/TodoMap.cs" Line="9" Column="21" />
+      <File FileName="Todo.Domain/Commands/CreateTodoCommand.cs" Line="8" Column="18" />
+      <File FileName="Todo.Domain/Repositories/ITodoRepository.cs" Line="13" Column="39" />
+      <File FileName="Todo.Domain/Handlers/TodoHandler.cs" Line="39" Column="31" />
+      <File FileName="Todo.Domain.Tests/Usings.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain.Tests/UnitTest1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="Todo" expanded="True">
+            <Node name="Todo.Domain.Tests" expanded="True" selected="True" />
+          </Node>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />

@@ -19,4 +19,10 @@
     <ProjectReference Include="..\Todo.Domain\Todo.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="EntityTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EntityTests\" />
+  </ItemGroup>
 </Project>
