@@ -21,8 +21,12 @@
 
   <ItemGroup>
     <None Remove="EntityTests\" />
+    <None Remove="HandlerTests\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EntityTests\" />
+    <Folder Include="HandlerTests\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>
