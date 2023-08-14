@@ -17,13 +17,13 @@ namespace Todo.Domain.Tests.CommandTests
         }
 
         [TestMethod]
-        public void Invalid_Command()
+        public void Must_Be_Invalid_Command()
         {
             Assert.AreEqual(_invalidCommand.Valid, false);
         }
 
         [TestMethod]
-        public void Valid_Command()
+        public void Must_Be_Valid_Command()
         {
             Assert.AreEqual(_validCommand.Valid, true);
         }
