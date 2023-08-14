@@ -6,9 +6,11 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Todo.Domain.Api.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Todo.Domain.Api.pdb
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Flunt.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Humanizer.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
@@ -64,5 +66,3 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.pdb
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.genruntimeconfig.cache
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/ref/Todo.Domain.Api.dll
-/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Humanizer.dll
-/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll

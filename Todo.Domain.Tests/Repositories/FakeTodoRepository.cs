@@ -8,7 +8,7 @@ namespace Todo.Domain.Tests.Repositories
     {
         public void Create(TodoItemEntity todo)
         {
-            throw new NotImplementedException();
+            
         }
 
         public IEnumerable<TodoItemEntity> GetAll(string user)
@@ -28,7 +28,7 @@ namespace Todo.Domain.Tests.Repositories
 
         public TodoItemEntity GetById(Guid id, string user)
         {
-            throw new NotImplementedException();
+            return new TodoItemEntity("Titulo Aqui", "Henrique", DateTime.Now);
         }
 
         public IEnumerable<TodoItemEntity> GetByPeriod(string user, DateTime date, bool done)
@@ -38,7 +38,7 @@ namespace Todo.Domain.Tests.Repositories
 
         public void Update(TodoItemEntity todo)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

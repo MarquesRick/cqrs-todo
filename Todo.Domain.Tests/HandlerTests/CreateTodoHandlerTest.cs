@@ -17,18 +17,17 @@ namespace Todo.Domain.Tests.HandlerTests
         public CreateTodoHandlerTest() { }
 
         [TestMethod]
-        public void Give_Wrong_Data_Fail_Execution()
+        public void Must_Fail_Execution_When_Passing_Incorrect_Data()
         {
             _result = (GenericCommandResult)_handler.Handle(_invalidCommand);
             Assert.AreEqual(_result.Success, false);
         }
 
         [TestMethod]
-        public void Give_Right_Data_Ok_Execution()
+        public void Must_Success_Execution_When_Passing_Correct_Data()
         {
             _result = (GenericCommandResult)_handler.Handle(_validCommand);
             Assert.AreEqual(_result.Success, true);
         }
     }
 }
-
