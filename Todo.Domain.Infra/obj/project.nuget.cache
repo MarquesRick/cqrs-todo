@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ffio6O3mNejpOxv7q6BltWiiJRiZFlZXNpi1M+is7Gi77KI3u/1cjz8SMtOXTcmbChu0AdqITsGllV5nuBAEpg==",
+  "dgSpecHash": "xTGC8hvzYrHRAPwh/1UxXfzy8bG44hCWQf691dI5AEKwEtOuKX7ekHRDwyLHsNf+RBUY2lVcuGTA79NsNldA9w==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Infra/Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
-    "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.data.sqlite.core/6.0.18/microsoft.data.sqlite.core.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore/6.0.18/microsoft.entityframeworkcore.6.0.18.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.18/microsoft.entityframeworkcore.abstractions.6.0.18.nupkg.sha512",

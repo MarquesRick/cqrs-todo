@@ -1,26 +1,36 @@
 ﻿<Properties StartupConfiguration="{D76881E9-314A-4ACF-AF12-2EB22B188F74}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Todo.Domain.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain.Tests/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Domain/Contracts/TodoItem/TodoItemResponse.cs">
     <Files>
-      <File FileName="Todo.Domain.Infra/Repositories/TodoRepository.cs" Line="24" Column="62" />
-      <File FileName="Todo.Domain.Api/Program.cs" Line="92" Column="1" />
-      <File FileName="Todo.Domain.Api/appsettings.json" Line="13" Column="1" />
-      <File FileName="Todo.Domain.Infra/Contexts/SQLiteContext.cs" Line="16" Column="65" />
-      <File FileName="Todo.Domain.Api/Todo/obj/Todo.Domain.Infra.EntityFrameworkCore.targets" Line="1" Column="1" />
-      <File FileName="Todo.Domain.Infra/Mapping/TodoMap.cs" Line="9" Column="21" />
-      <File FileName="Todo.Domain/Commands/CreateTodoCommand.cs" Line="8" Column="18" />
-      <File FileName="Todo.Domain/Repositories/ITodoRepository.cs" Line="13" Column="39" />
-      <File FileName="Todo.Domain/Handlers/TodoHandler.cs" Line="39" Column="31" />
-      <File FileName="Todo.Domain.Tests/Usings.cs" Line="1" Column="1" />
-      <File FileName="Todo.Domain.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain.Infra/Repositories/TodoRepository.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain/Entities/Entity.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain/Entities/TodoItemEntity.cs" Line="22" Column="64" />
+      <File FileName="Todo.Domain/Repositories/IBaseRepository.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain/Repositories/ITodoRepository.cs" Line="19" Column="2" />
+      <File FileName="Todo.Domain/Repositories/IUnitOfWork.cs" Line="10" Column="6" />
+      <File FileName="Todo.Domain/Exceptions/ApplicationException.cs" Line="4" Column="27" />
+      <File FileName="Todo.Domain/Exceptions/BadRequestException.cs" Line="11" Column="1" />
+      <File FileName="Todo.Domain/Exceptions/NotFoundException.cs" Line="8" Column="9" />
+      <File FileName="Todo.Domain/Exceptions/Todo/TodoNotFoundException.cs" Line="11" Column="1" />
+      <File FileName="Todo.Domain/Commands/Contracts/ICommand.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain/Commands/Contracts/ICommandResult.cs" Line="4" Column="2" />
+      <File FileName="Todo.Domain/TodoItem/Commands/CreateTodo/CreateTodoCommand.cs" Line="1" Column="1" />
+      <File FileName="Todo.Domain/Exceptions/ValidationException.cs" Line="14" Column="2" />
+      <File FileName="Todo.Domain/Abstractions/Messaging/ICommand.cs" Line="7" Column="6" />
+      <File FileName="Todo.Domain/Abstractions/Messaging/ICommandHandler.cs" Line="9" Column="6" />
+      <File FileName="Todo.Domain/Abstractions/Messaging/IIdempotentCommand.cs" Line="7" Column="6" />
+      <File FileName="Todo.Domain/Abstractions/Messaging/IQuery.cs" Line="7" Column="6" />
+      <File FileName="Todo.Domain/Abstractions/Messaging/IQueryHandler.cs" Line="8" Column="6" />
+      <File FileName="Todo.Domain/Behaviors/ValidationBehavior.cs" Line="14" Column="75" />
+      <File FileName="Todo.Domain/Contracts/TodoItem/TodoItemResponse.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Todo" expanded="True">
-            <Node name="Todo.Domain.Tests" expanded="True" selected="True" />
+            <Node name="Todo.Domain" expanded="True" />
+            <Node name="Todo.Domain.Infra" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -29,13 +39,14 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Todo" expanded="True" selected="True" />
+          <Node name="Todo" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Todo.Domain.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -1,19 +1,45 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <!-- <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable> -->
+   <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Flunt" Version="1.0.4" />
-    <!-- <PackageReference Include="Flunt.Extensions.AspNet" Version="1.0.0" /> -->
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="7.3.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Commands\TodoItemContext\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Exceptions\Todo\" />
+    <None Remove="TodoItem\" />
+    <None Remove="TodoItem\Commands\" />
+    <None Remove="TodoItem\Commands\CreateTodo\" />
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\Messaging\" />
+    <None Remove="Behaviors\" />
+    <None Remove="FluentValidation" />
+    <None Remove="MediatR" />
+    <None Remove="Contracts\" />
+    <None Remove="Contracts\TodoItem\" />
+    <None Remove="Mapster" />
+    <None Remove="TodoItem\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Commands\TodoItemContext\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Exceptions\Todo\" />
+    <Folder Include="TodoItem\" />
+    <Folder Include="TodoItem\Commands\" />
+    <Folder Include="TodoItem\Commands\CreateTodo\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\Messaging\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\TodoItem\" />
+    <Folder Include="TodoItem\Queries\" />
   </ItemGroup>
 </Project>

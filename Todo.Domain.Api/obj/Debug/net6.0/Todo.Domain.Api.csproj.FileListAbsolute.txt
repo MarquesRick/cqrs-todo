@@ -66,3 +66,5 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.pdb
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.genruntimeconfig.cache
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/ref/Todo.Domain.Api.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.Contracts.dll

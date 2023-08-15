@@ -99,3 +99,6 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/obj/Debug/net6.0/Todo.Domain.Tests.pdb
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/obj/Debug/net6.0/Todo.Domain.Tests.genruntimeconfig.cache
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/obj/Debug/net6.0/ref/Todo.Domain.Tests.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/bin/Debug/net6.0/MediatR.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "g10wyru+heGCa18UaAvuRa/7AcVfMO6EoubhWPfOfDezm1ozeS4EjblOxZJnvXww3v78MQBn/MesbX8y/e2AuA==",
+  "dgSpecHash": "B7kIQyFWR0eSNvv3l2HqX7VW0EwcgK02XeqU887mluEDOb5y6HJUhBP5JUBxfSjyM7QpYGBQOhMtv9b5rR11Bg==",
   "success": true,
   "projectFilePath": "/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Tests/Todo.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/hmarques/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
-    "/Users/hmarques/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
+    "/Users/hmarques/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.net.test.sdk/17.1.0/microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/hmarques/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
