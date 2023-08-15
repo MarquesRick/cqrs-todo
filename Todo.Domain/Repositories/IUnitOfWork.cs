@@ -6,7 +6,7 @@ namespace Todo.Domain.Repositories
 {
     public interface IUnitOfWork
     {
-        Task<Guid> SaveChangesAsync(CancellationToken cancellationToken = default);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }
 

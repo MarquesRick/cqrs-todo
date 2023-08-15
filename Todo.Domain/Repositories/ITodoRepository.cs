@@ -11,7 +11,7 @@ namespace Todo.Domain.Repositories
         void Create(TodoItemEntity todo);
         void Update(TodoItemEntity todo);
         Task<TodoItemEntity> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
-        Task<IEnumerable<TodoItemEntity>> GetAllAsync(CancellationToken cancellationToken = default);
+        Task<List<TodoItemEntity>> GetAllAsync(CancellationToken cancellationToken = default);
         Task<IEnumerable<TodoItemEntity>> GetAllDone(string username, CancellationToken cancellationToken = default);
         Task<IEnumerable<TodoItemEntity>> GetAllUndone(string username, CancellationToken cancellationToken = default);
         Task<IEnumerable<TodoItemEntity>> GetByPeriod(string user, DateTime date, bool done, CancellationToken cancellationToken = default);

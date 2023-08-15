@@ -5,8 +5,14 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Todo.Domain.Api.runtimeconfig.json
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Todo.Domain.Api.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Todo.Domain.Api.pdb
-/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Flunt.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/FluentValidation.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Humanizer.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Mapster.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Mapster.Core.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.dll
+/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.Contracts.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -66,5 +72,3 @@
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.pdb
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/Todo.Domain.Api.genruntimeconfig.cache
 /Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/obj/Debug/net6.0/ref/Todo.Domain.Api.dll
-/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.dll
-/Users/hmarques/work/Projetos/dotnet/Todo/Todo.Domain.Api/bin/Debug/net6.0/MediatR.Contracts.dll

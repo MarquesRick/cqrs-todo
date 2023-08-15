@@ -31,4 +31,7 @@
     <Folder Include="Repositories\" />
     <Folder Include="QueryTests\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>

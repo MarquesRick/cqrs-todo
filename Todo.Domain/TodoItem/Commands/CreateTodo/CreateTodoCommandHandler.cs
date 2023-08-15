@@ -1,7 +1,6 @@
 ﻿using System;
 using Mapster;
 using Todo.Domain.Abstractions.Messaging;
-using Todo.Domain.Commands;
 using Todo.Domain.Contracts.TodoItem;
 using Todo.Domain.Entities;
 using Todo.Domain.Repositories;

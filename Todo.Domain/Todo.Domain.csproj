@@ -27,6 +27,8 @@
     <None Remove="Contracts\TodoItem\" />
     <None Remove="Mapster" />
     <None Remove="TodoItem\Queries\" />
+    <None Remove="TodoItem\Queries\GetTodos\" />
+    <None Remove="TodoItem\Commands\UpdateTodo\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Commands\TodoItemContext\" />
@@ -41,5 +43,7 @@
     <Folder Include="Contracts\" />
     <Folder Include="Contracts\TodoItem\" />
     <Folder Include="TodoItem\Queries\" />
+    <Folder Include="TodoItem\Queries\GetTodos\" />
+    <Folder Include="TodoItem\Commands\UpdateTodo\" />
   </ItemGroup>
 </Project>

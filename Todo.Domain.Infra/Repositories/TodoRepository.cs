@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 using Todo.Domain.Entities;
 using Todo.Domain.Infra.Contexts;
@@ -27,11 +28,21 @@ namespace Todo.Domain.Infra.Repositories
                 .Where(TodoQueries.GetAll(user))
                 .OrderBy(x => x.Date);
 
+        public Task<List<TodoItemEntity>> GetAllAsync(CancellationToken cancellationToken = default)
+        {
+            return _context.Todos.AsNoTracking().ToListAsync(cancellationToken);
+        }
+
         public IEnumerable<TodoItemEntity> GetAllDone(string user)
             => _context.Todos
                 .AsNoTracking()
                 .Where(TodoQueries.GetAllDone(user))
                 .OrderBy(x => x.Date);
+
+        public Task<IEnumerable<TodoItemEntity>> GetAllDone(string username, CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
 
         public IEnumerable<TodoItemEntity> GetAllUndone(string user)
             => _context.Todos
@@ -39,9 +50,20 @@ namespace Todo.Domain.Infra.Repositories
                 .Where(TodoQueries.GetAllUndone(user))
                 .OrderBy(x => x.Date);
 
+        public Task<IEnumerable<TodoItemEntity>> GetAllUndone(string username, CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
+
         public TodoItemEntity GetById(Guid id, string user)
             => _context.Todos
                 .FirstOrDefault(x => x.Id == id && x.User == user);
+
+        public Task<TodoItemEntity> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
+        {
+            return _context.Todos
+                .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+        }
 
         public IEnumerable<TodoItemEntity> GetByPeriod(string user, DateTime date, bool done)
             => _context.Todos
@@ -49,6 +71,10 @@ namespace Todo.Domain.Infra.Repositories
                 .Where(TodoQueries.GetByPeriod(user, date, done))
                 .OrderBy(x => x.Date);
 
+        public Task<IEnumerable<TodoItemEntity>> GetByPeriod(string user, DateTime date, bool done, CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Update(TodoItemEntity todo)
         {
